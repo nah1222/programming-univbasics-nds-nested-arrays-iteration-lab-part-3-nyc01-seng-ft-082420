@@ -8,8 +8,8 @@ def join_nested_strings(mixed_data)
   element_index = 0
   while element_index < mixed_data[count].count do
     if mixed_data[count][element_index].is_a?(String)
-      
-      str << mixed_data[count][element_index]
+      word = mixed_data[count][element_index]
+      str << word
       element_index += 1
   end
   count += 1
