@@ -11,10 +11,11 @@ def join_nested_strings(mixed_data)
     if mixed_data[num][element_index].class == String
       word = mixed_data[num][element_index]
       str << word
-      element_index += 1
+      
   end
-  num += 1
+  element_index += 1
+end
+num += 1
 end
 str.join(" ")
-end
 end
