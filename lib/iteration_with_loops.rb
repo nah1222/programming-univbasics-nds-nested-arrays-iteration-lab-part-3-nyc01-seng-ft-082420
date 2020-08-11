@@ -5,8 +5,8 @@ def join_nested_strings(mixed_data)
   str = []
   num = 0
   while num < mixed_data.length do
-    binding.pry
   element_index = 0
+  binding.pry
   while element_index < mixed_data[num].length do
     if mixed_data[num][element_index].class == String
       word = mixed_data[num][element_index]
